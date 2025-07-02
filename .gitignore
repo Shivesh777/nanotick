@@ -1,0 +1,11 @@
+*.csv
+*.parquet
+*.gz
+*.bz2
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.lzma
+*.tar.lzma
