@@ -1,0 +1,6 @@
+pyarrow
+pandas
+tqdm
+itchfeed
+numba
+numpy
