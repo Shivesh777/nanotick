@@ -17,7 +17,7 @@ designed for *quant research* and *high-frequency trading* workflows on Apple Si
 
 ## 1  TL;DR
 
-* Converts raw **BX ITCH 5.0** feeds to **loss-free Parquet** in < 6 s with full schema + Zstd compression.  
+* Converts raw **BX ITCH 5.0** feeds to **loss-free Parquet** in < 140 s with full schema + Zstd compression.  
 * Replays an entire trading day (≈ 30 M msgs) into live LOBs in **7 s flat** (C++), tracking nanosecond-level latency.  
 * Zero-copy Arrow buffers → branch-free, pointer-free hot paths.  
 * SIMD-friendly, cache-dense data layout; `-march=native -O3 -flto` for x86 & Apple Silicon.  
