@@ -9,3 +9,4 @@
 *.tar.xz
 *.tar.lzma
 *.tar.lzma
+*.DS_Store
