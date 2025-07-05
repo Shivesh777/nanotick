@@ -161,7 +161,7 @@ All containers are *open-addressing* hash maps ⇒ constant-time updates and min
 
 ---
 
-## 8  Extending millitick
+## 8  Extending NanoTick
 
 * **Sharding** – split Parquet by `stock` and replay in parallel processes.
 * **VWAP / depth snapshots** – expose hooks inside LOB loop for real-time analytics.
